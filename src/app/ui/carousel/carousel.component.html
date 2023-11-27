@@ -1,16 +1,44 @@
 <div class="carousel">
   <ng-container *ngFor="let slide of slides; let i = index">
     <div class="cont">
-      <img [src]="slide.src" class="slide" *ngIf="i === currentSlide" @carouselAnimation/>
-      <h1 class="head" *ngIf="i === currentSlide">{{slide.text}}</h1>
+      <img
+        [src]="slide.src"
+        class="slide"
+        *ngIf="i === currentSlide"
+        @carouselAnimation
+      />
+      <h1 class="head" *ngIf="i === currentSlide" @carouselAnimation>
+        {{ slide.text }}
+      </h1>
+    </div>
+    <div style="text-align: center">
+      <button
+        style="border-radius: 50px"
+        mat-raised-button
+        color="primary"
+        *ngIf="i === currentSlide && i != 0"
+        class="butn"
+      >
+        View more
+      </button>
     </div>
   </ng-container>
 
   <!-- controls -->
-  <button mat-icon-button class="control prev" style="color: white;"  (click)="onPreviousClick()">
+  <button
+    mat-icon-button
+    color="accent"
+    class="control prev"
+    (click)="onPreviousClick()"
+  >
     <mat-icon>arrow_back_ios</mat-icon>
   </button>
-  <button mat-icon-button class="control next" (click)="onNextClick()"  style="color: white;">
+  <button
+    mat-icon-button
+    color="accent"
+    class="control next"
+    (click)="onNextClick()"
+  >
     <mat-icon>arrow_forward_ios</mat-icon>
   </button>
 </div>
