@@ -20,7 +20,7 @@ export class CarouselComponent implements OnInit {
     setInterval(() => {
       const next = this.currentSlide + 1;
       this.currentSlide = next === this.slides.length ? 0 : next;
-    }, 8000);
+    }, 4000);
   }
   @Input() slides: any;
   currentSlide = 0;

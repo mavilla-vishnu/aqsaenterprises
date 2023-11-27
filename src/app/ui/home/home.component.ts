@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   public slides = [
     { src: '../../../assets/first.png', text: 'Welcome to Aqsa Gas' },
-    { src: '../../../assets/hotel.jpg', text: 'LPG for Hotel' },
-    { src: '../../../assets/kitchen.jpg', text: 'LPG for Home' },
-    { src: '../../../assets/industry.jpg', text: 'LPG for Industry' },
+    { src: '../../../assets/hotel1.jpg', text: 'LPG for Hotel' },
+    { src: '../../../assets/kitchen1.png', text: 'LPG for Home' },
+    { src: '../../../assets/industry1.png', text: 'LPG for Industry' },
   ];
 }
