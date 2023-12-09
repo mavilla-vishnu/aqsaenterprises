@@ -1,0 +1,15 @@
+mat-grid-tile {
+  text-align: center;
+  border-radius: 4px;
+  margin: 0px !important;
+  width: 500px !important;
+  height: 300px !important;
+}
+::ng-deep .mat-grid-tile-content {
+  // margin: 90px !important;
+}
+.head {
+  border-bottom: 4px solid red;
+  padding-left: 12px;
+  border-radius: 8px;
+}

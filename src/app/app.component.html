@@ -1,29 +1,33 @@
 <!-- Toolbar -->
 <mat-toolbar color="primary">
-  <img src="../assets/logo.png" class="logo" />
+  <img src="../assets/logoooo.png" class="logo" />
   <span>AQSA</span>
   <span class="spacer"></span>
-  <button mat-button routerLink="./home"><mat-icon>home</mat-icon>Home</button>
-  <button mat-button routerLink="./about">
+  <button mat-button routerLink="./home" class="menu">
+    <mat-icon>home</mat-icon>Home
+  </button>
+  <button mat-button routerLink="./about" class="menu">
     <mat-icon>info</mat-icon>About us
   </button>
-  <button mat-button routerLink="./services">
+  <button mat-button routerLink="./services" class="menu">
     <mat-icon>manage_accounts</mat-icon>Services
   </button>
-  <button mat-button routerLink="./distributors">
+  <button mat-button routerLink="./distributors" class="menu">
     <mat-icon>lan</mat-icon>Distributors
   </button>
-  <button mat-button routerLink="./clients">
+  <button mat-button routerLink="./clients" class="menu">
     <mat-icon>diversity_3</mat-icon>Clients
   </button>
-  <button mat-button routerLink="./careers">
+  <button mat-button routerLink="./careers" class="menu">
     <mat-icon>work</mat-icon>Career
   </button>
 </mat-toolbar>
 <router-outlet></router-outlet>
 <!-- Toolbar -->
-<mat-toolbar color="primary">
-  <img src="../assets/logo.png" class="logo" />
+<footer>
+  <mat-toolbar color="primary" class="footer">
+    <img src="../assets/logoooo.png" class="logo" />
 
-  <span class="spacer"></span>
-</mat-toolbar>
+    <span class="spacer"></span>
+  </mat-toolbar>
+</footer>

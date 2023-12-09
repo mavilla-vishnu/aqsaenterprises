@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './angular-material.module';
 import { HomeComponent } from './ui/home/home.component';
+import { HomeComponentNew } from './types/home/home.component';
 import { AboutUsComponent } from './ui/about-us/about-us.component';
 import { ServicesComponent } from './ui/services/services.component';
 import { DistributorsComponent } from './ui/distributors/distributors.component';
 import { ClientsComponent } from './ui/clients/clients.component';
 import { CareersComponent } from './ui/careers/careers.component';
 import { CarouselComponent } from './ui/carousel/carousel.component';
+import { HotelComponent } from './types/hotel/hotel.component';
+import { IndustryComponent } from './types/industry/industry.component';
 
 @NgModule({
   declarations: [
@@ -23,15 +26,19 @@ import { CarouselComponent } from './ui/carousel/carousel.component';
     ClientsComponent,
     CareersComponent,
     CarouselComponent,
+    HomeComponent,
+    HomeComponentNew,
+    HotelComponent,
+    IndustryComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     AngularMaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

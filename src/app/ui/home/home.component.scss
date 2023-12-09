@@ -6,6 +6,7 @@
 .ban {
   width: 60%;
   height: 400px;
+  text-align: center;
   background-image: url("../../../assets/gascyl.png");
   background-size: cover;
 }
@@ -13,14 +14,23 @@
   // width: 200px;
 }
 .ct {
-  margin: 6px;
+  margin: 30px;
   width: 100%;
 }
 .card {
   background-color: #f00808;
   color: white;
+  border-radius: 40px;
+  box-shadow: 6px 6px 12px #898989;
+  margin: 30px;
 }
 .grid {
   width: 60%;
   padding-bottom: 0px !important;
+}
+.mt {
+  width: 60px;
+  height: 60px;
+  font-size: 64px;
+  color: red;
 }
