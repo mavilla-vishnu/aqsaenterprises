@@ -1,7 +1,7 @@
 <div class="container">
   <carousel [slides]="slides"></carousel>
 </div>
-<div style="display: flex">
+<div style="display: flex; background-color: #fdf1f1">
   <div class="ban">
     <h1 style="margin-left: 100px">WELCOME TO AQSA GAS</h1>
     <p style="margin-left: 100px">
@@ -47,7 +47,12 @@
         style="width: 200px; height: 140px"
       />
       <h4>LPG for Home</h4>
-      <button mat-raised-button color="primary" style="border-radius: 20px">
+      <button
+        mat-raised-button
+        color="primary"
+        style="border-radius: 20px"
+        routerLink="/homedomestic"
+      >
         View more
       </button>
     </mat-card-content>
@@ -59,7 +64,12 @@
         style="width: 200px; height: 140px"
       />
       <h4>LPG for Hotel</h4>
-      <button mat-raised-button color="primary" style="border-radius: 20px">
+      <button
+        mat-raised-button
+        color="primary"
+        style="border-radius: 20px"
+        routerLink="/hotel"
+      >
         View more
       </button>
     </mat-card-content>
@@ -71,7 +81,12 @@
         style="width: 200px; height: 140px"
       />
       <h4>LPG for Industry</h4>
-      <button mat-raised-button color="primary" style="border-radius: 20px">
+      <button
+        mat-raised-button
+        color="primary"
+        style="border-radius: 20px"
+        routerLink="/industry"
+      >
         View more
       </button>
     </mat-card-content>

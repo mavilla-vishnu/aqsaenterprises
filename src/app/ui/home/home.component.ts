@@ -9,11 +9,15 @@ export class HomeComponent {
   public slides = [
     { src: '../../../assets/first.png', text: 'Welcome to Aqsa Gas', url: '/' },
     { src: '../../../assets/hotel1.jpg', text: 'LPG for Hotel', url: '/hotel' },
-    { src: '../../../assets/kitchen1.png', text: 'LPG for Home', url: '/home' },
+    {
+      src: '../../../assets/kitchen1.png',
+      text: 'LPG for Home',
+      url: '/homedomestic',
+    },
     {
       src: '../../../assets/industry1.png',
       text: 'LPG for Industry',
-      url: 'industry',
+      url: '/industry',
     },
   ];
 }
